@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff77a1; /* Rosa pastel para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid white; /* Borda inferior para destaque */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título */
+    margin: 0; /* Remove margens */
+}
+
+.puzzle {
+    background-color: #ffb3c1; /* Rosa pastel para os puzzles */
+    margin: 20px; /* Margem em torno de cada puzzle */
+    padding: 20px; /* Preenchimento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra ao redor do puzzle */
+    transition: transform 0.3s; /* Transição suave para o efeito de hover */
+}
+
+.puzzle:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+}
+
+input {
+    padding: 10px; /* Preenchimento interno do campo de entrada */
+    margin-top: 10px; /* Margem acima do campo de entrada */
+    border: 2px solid #ff77a1; /* Borda rosa pastel */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: calc(100% - 24px); /* Largura do campo de entrada */
+    background-color: #ffffff; /* Fundo branco para o campo de entrada */
+    color: #121212; /* Texto escuro para contraste */
+}
+
+button {
+    margin-top: 10px; /* Margem acima do botão */
+    padding: 10px 15px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda padrão */
+    background-color: #ff77a1; /* Rosa pastel para o botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #ff4c3b; /* Cor de fundo do botão ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+.result {
+    margin-top: 15px; /* Margem acima da mensagem de resultado */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.hidden {
+    display: none; /* Esconde elementos com a classe 'hidden' */
+}
+
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 20px; /* Preenchimento interno do rodapé */
+    background-color: #1e1e1e; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto do rodapé */
+    position: relative; /* Posição relativa para o rodapé */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+    width: 100%; /* Largura total do rodapé */
+}
